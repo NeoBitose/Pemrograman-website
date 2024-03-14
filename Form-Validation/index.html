@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cover">
+      <form name="form-registrasi" action="#" onsubmit="return validateForm()" class="form">
+        <h1 class="title-form">Registrasi</h1>
+        <div class="email input">
+          <label class="label" for="email">Email</label>
+          <input class="form-input" type="text" name="email" id="email">
+          <small class="red-text" id="message-email"></small>
+        </div>
+        <div class="username input">
+          <label class="label" for="username">Username</label>
+          <input class="form-input" type="text" name="username" id="username">
+          <small class="red-text" id="message-username"></small>
+        </div>
+        <div class="password input">
+          <label class="label" for="password">Password</label>
+          <input class="form-input" type="password" name="password" id="password">
+          <small class="red-text" id="message-password"></small>
+        </div>
+        <button type="submit"  class="btn-login">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+</body>
+<script src="main.js"></script>
+</html>
