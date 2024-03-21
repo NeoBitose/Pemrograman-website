@@ -1,4 +1,5 @@
-function validateForm() {
+function validateForm() 
+{
   const form_regist_email = document.forms["form-registrasi"]["email"].value;
   const form_regist_username = document.forms["form-registrasi"]["username"].value;
   const form_regist_password = document.forms["form-registrasi"]["password"].value;
